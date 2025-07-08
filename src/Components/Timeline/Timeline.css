@@ -1,0 +1,69 @@
+#timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.title {
+    position: relative;
+}
+
+.title h1 {
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 200px;
+}
+
+@media(max-width: 768px){
+    .title img{
+        width: 130px;
+        margin-right: -20px;
+    }
+}
+
+.vertical-timeline-element-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #666;
+}
+
+#description {
+    font-size: 1rem;
+    color: #777;
+}
+
+.button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+}
+
+.workButton {
+    background-color: #d17a1e;
+}
+
+.schoolButton {
+    background-color: #d17a1e;
+}
+
+.date {
+    color: #333;
+}

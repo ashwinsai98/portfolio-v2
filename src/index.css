@@ -1,0 +1,56 @@
+
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  -ms-overflow-style: none;
+
+}::-webkit-scrollbar {
+  display: none;
+}
+
+/* Set a base font size and font family */
+body {
+  font-size: 16px;
+  font-family: 'Outfit', sans-serif;
+  zoom: 80%;
+}
+
+/* Set a background color and text color */
+body {
+  background-color: #f1efec;
+  color: rgb(7, 5, 5);
+  zoom: 80%;
+}
+
+
+/* Responsive layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+}
+
+.modal-backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  margin: 0;
+  height: 100%;
+}
