@@ -67,3 +67,9 @@
 .date {
     color: #333;
 }
+
+.vertical-timeline-element-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
