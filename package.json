@@ -35,6 +35,7 @@
  },
  "config": {
  "npmClient": "npm",
- "npmConfigForce": true
+ "npmConfigForce": true,
+ "npmConfigLegacyPeerDeps": true
  }
 }
