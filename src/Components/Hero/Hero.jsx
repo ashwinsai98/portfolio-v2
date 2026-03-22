@@ -24,7 +24,7 @@ const Hero = () => {
         <h1>
             <span>I'm Ashwin Prakash,</span> Data engineer based in India.
         </h1>
-        <p>Innovative and passionate Data Engineer with 3 + years of experience in the Information Technology industry has designed, developed and maintained multiple scalable and efficient ETL pipelines.</p>
+        <p>Innovative and passionate Data Engineer with 4 + years of experience in the Information Technology industry has designed, developed and maintained multiple scalable and efficient ETL pipelines.</p>
         <hr />
         <div className="hero-action">
             <div className="hero-connect"><a className='anchor-link' offset={50} href='#contact'>Connect with me</a></div>
