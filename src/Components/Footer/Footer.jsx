@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="footer-top-left">
                 <img src={footer_logo} alt="" />
                 <hr />
-                <div className="footer-bottom-left">© 2025 Ashwin Prakash. All rights reserved.</div>
+                <div className="footer-bottom-left">© 2026 Ashwin Prakash. All rights reserved.</div>
             </div>
         </div>
         <hr />
