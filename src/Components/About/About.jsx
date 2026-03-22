@@ -46,8 +46,13 @@ const About = () => {
                     </div>
                     <div className="about-skill">
                         <p>
+                            Databricks
+                        </p><hr style={{width:"80%"}} />
+                    </div>
+                    <div className="about-skill">
+                        <p>
                             ADF
-                        </p><hr style={{width:"60%"}} />
+                        </p><hr style={{width:"70%"}} />
                     </div>
                     <div className="about-skill">
                         <p>
@@ -62,7 +67,7 @@ const About = () => {
                     <div className="about-skill">
                         <p>
                             ReactJS
-                        </p><hr style={{width:"50%"}} />
+                        </p><hr style={{width:"70%"}} />
                     </div>
                 </div>
             </div>
